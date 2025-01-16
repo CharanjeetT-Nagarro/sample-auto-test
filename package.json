@@ -1,0 +1,19 @@
+{
+  "name": "sample-cypressauto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "test:qa": "npx cypress run --env configFile=qa"
+  },
+  "keywords": [],
+  "author": "Charanjeet sample test",
+  "license": "ISC",
+  "description": "Sample automation test",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+
+  
+}
